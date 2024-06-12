@@ -6,13 +6,22 @@ A waste management app that allows users to manage waste collection schedules, t
 
 The system has three distinct users"
 - Household Users
-- - The user can set a waste collection schedule
-- - User has a recycle tracker that measures their recycling efforts
-- - 
+    - The user can set a waste collection schedule
+    - User has a recycle tracker that measures their recycling efforts
+    - 
 - Waste management services
--
+    - Able to manage waste collection schedules of affiliated households according to locations
+    - Track the household user's waste management performance
+- Admin
+    - Has access to all users and their schedules
+    - Can add and remove users
+    - Managers and maintain app performance
 
 ### Usage
+
+- You can access this app here: 
+Or
+- Clone github repository into your local workspace
 
 
 ### Languages
