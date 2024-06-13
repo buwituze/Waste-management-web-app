@@ -18,10 +18,10 @@ The system has three distinct users"
     - Managers and maintain app performance
 
 ### Usage
-
-- You can access this app here: 
-Or
-- Clone github repository into your local workspace
+- Access via : here
+- Access locally
+    - Clone github repository into your local workspace
+    - 
 
 
 ### Languages
