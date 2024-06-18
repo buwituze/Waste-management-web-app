@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.clients{
+    margin-top: 5%;
+   align-items: center;
+}
+.clients h2{
+    text-align: center;
+    color: green;
+    margin-bottom: 3%;
+}
+
+table th {
+    color: gray;
+    font-weight: lighter;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
