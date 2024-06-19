@@ -1,0 +1,54 @@
+/* reg.css */
+
+/* Set the background color of the body to green */
+body {
+    background-color: lightgreen; /* Change to your desired shade of green */
+}
+
+/* Additional styles for the form */
+form#registrationForm {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #fff; /* Optional: to make the form background white */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; /* Ensure the button text is not underlined */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button[type="submit"] a {
+    color: white;
+    text-decoration: none; /* Ensure the link text is not underlined */
+    display: block; /* Make the link fill the button */
+}
+
