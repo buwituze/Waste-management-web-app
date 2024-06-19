@@ -4,6 +4,13 @@
 body {
     background-color: lightgreen; /* Change to your desired shade of green */
 }
+.logo{
+    margin-top: -250px;
+    color: green;
+    font-weight: bold;
+    padding-left: 40px;
+    font-size: 30px;
+}
 
 /* Additional styles for the form */
 form#registrationForm {
