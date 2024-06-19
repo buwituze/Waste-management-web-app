@@ -36,7 +36,7 @@ The system has three distinct users"
 ### Authors
 
 - Benitha Uwituze Rutagengwa
-- Patric Mukunzi
+- Patrick  Mukunzi
 - Roxanne Niteka
 - Aubin Saiba
 - Collette Asingizwe
