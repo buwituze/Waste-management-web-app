@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+        
+        <div class="card">
+            <div class="card-header">User Management</div>
+            <div class="card-body">
+                <table class="table table-striped" id="userTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- User rows will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-header">Waste Collection Management</div>
+            <div class="card-body">
+                <!-- Content for managing waste collection schedules -->
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-header">Recycling Efforts Monitoring</div>
+            <div class="card-body">
+                <canvas id="recyclingChart"></canvas>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-header">System Monitoring</div>
+            <div class="card-body">
+                <!-- Content for monitoring system performance -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>
